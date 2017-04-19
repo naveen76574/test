@@ -1,0 +1,19 @@
+hub:
+  image: naveen395/selenium-hub
+  ports:
+    - "4444:4444"
+chrome:
+  image: selenium/node-chrome-debug
+  ports:
+    - "32771:5900"
+  links:
+    - hub
+firefox:
+   image: selenium/node-firefox-debug
+   ports:
+     - "32772:5900"
+   links:
+    - hub    
+
+
+ 
