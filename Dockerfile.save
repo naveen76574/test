@@ -3,7 +3,7 @@
 # PLEASE UPDATE Dockerfile.txt INSTEAD OF THIS FILE
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 FROM selenium/base:3.3.0-americium
-MAINTAINER Selenium <selenium-developers@googlegroups.com>
+MAINTAINER Selenium <naveen..potha@gmail.com>
 
 #========================
 # Selenium Configuration
